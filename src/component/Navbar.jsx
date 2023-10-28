@@ -28,13 +28,16 @@ export const Navbar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a>Item 1</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a>Parent</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <a>Item 3</a>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/products">Products</Link>
                 </li>
               </ul>
             </div>
